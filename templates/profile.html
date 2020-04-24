@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+</head>
+<body>
+
+<h1>Congratulations, {{user_name}}!</h1>
+<p>Your Pokemon is {{poke_name}}</p>
+
+<table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Category</th> 
+    </tr>
+    <tr>
+        <td>{{poke_name}}</td>
+        <td>{{category}}</td>
+    </tr>
+    <tr>
+        <th>Appearance</th>
+    </tr>
+        <td><img src={{image}}></img></td>
+    <tr>
+        <th>Ability</th>
+        <th>Effect</th> 
+    </tr>
+    <tr>
+        <td>{{ability}}</td>
+        <td>{{effect}}</td>
+    </tr>
+    <tr>
+        <th>Height</th>
+        <th>Weight</th> 
+    </tr>
+    <tr>
+        <td>{{height}}</td>
+        <td>{{weight}}</td>
+    </tr>
+    <tr>
+        <th>Type 1</th>
+        <th>Type 2</th> 
+    </tr>
+    <tr>
+        <td>{{type1}}</td>
+        <td>{{type2}}</td>
+    </tr>
+  </table>
+
+</body>
+</html>
